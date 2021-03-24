@@ -1,0 +1,39 @@
+body{
+    background:linear-gradient(darkseagreen,azure);
+}
+.topDiv{
+    background-color:azure;
+    color:darkseagreen;
+    
+}
+h1{
+    font-size:45px;
+}
+.midDiv{
+    background-color:azure;
+    color:darkseagreen;
+    width:800px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+
+
+}
+.botDiv{
+    background-color:azure;
+    color:darkseagreen;
+    width:800px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+}
+.c{
+    width: 500px;
+    margin: auto;
+}
+.para{
+    font-size: 20px;
+}
+
+
+

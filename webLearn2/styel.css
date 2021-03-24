@@ -1,0 +1,83 @@
+.Nav{
+    background-color:#333030;
+    position:fixed;
+    top:2;
+    width: 1500px;
+    height:90px;
+    margin: auto;
+    box-shadow: 2px 3px 5px black;
+    background-size: cover;
+}
+.hOne{
+    font-size:50px;
+    color:blueviolet;
+}
+h2{
+    color:darkseagreen;
+    background-color: azure;
+    text-align : center;
+}
+body{
+    /*background:linear-gradient(to right,darkseagreen,azure);*/
+    background-image:url(zebBackground.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.divi , .about{
+    margin-top:300px;
+    margin: auto;
+   
+    width: 700px;
+    height:100px;
+    background-color:#333030;
+    box-shadow:2px 3px 5px black;
+    
+   
+    
+    
+}
+.main{
+    margin-top: 100px;
+}
+.Nav a,img{
+    text-align: center;
+    float: left;
+    padding: 34px 20px;
+    font-size: 20px;
+    font-style: bold;
+    color:  #ffffff;
+    display: block;
+    text-decoration:none;
+    
+    
+}
+.Nav .text:hover{
+    color: black;
+    background-color:#e6e6e6;
+    
+    
+}
+.Nav img{
+    height:90px;
+    width:90px;
+    padding:0px;
+    margin-left: 10px;
+    margin-right:10px
+}
+#name{
+    padding: 0px;
+    color:  #ffffff;
+    float: right;
+    font-size: 60px;
+    padding-top:10px;
+    padding-right:10px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.about{
+    height: 500px;
+    width: 800px;
+
+}
+
