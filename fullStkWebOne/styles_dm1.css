@@ -15,6 +15,12 @@ p{
     font-size:20px;
     line-height: 1.2;
 }
+article p{
+    font-size:25px;
+    padding:40px;
+
+
+}
 .container{
     width:100%;
     margin:auto;
@@ -97,6 +103,13 @@ div.box{
     padding:36px 24px 40px 24px;
     border-radius:7px;
 }
+
+div.iconSlope img{
+    display:block;
+    margin:auto;
+    box-shadow: -5px -5px 5px  rgba(0,0,0,0.2),
+    5px 5px 5px  rgba(0,0,0,0.8);
+}
 button{
     font-size:32px;
     font-weight:700;
@@ -177,7 +190,20 @@ input[type="text"]{
     h1.section2Header{
         font-size: 50px;
     }
-    .col-6,.col-4{
+
+    article p{
+        font-size:20px;
+    }
+    div.iconSlope{
+        margin: 10px;
+    }
+    div.iconSlope img{
+        width: 100%;
+    }
+    .col-6,
+    .col-4,
+    .col-7,
+    .col-5{
         width:100%;
         margin: 0;
     }
