@@ -12,12 +12,36 @@
     -moz-bix-shadow:2px 2px 5px rgba(0,0,0,0.5);
 }
 img.signin-img{
-    padding:0 2rem 2rem ;
+    padding:0 0.5rem 0.5rem ;
     margin:auto;
     display:block;
-    width:30%;
+    width:24%;
+    
 }
 form.signin-form{
-    max-width: 350px;
+    max-width: 50%;
     margin:auto;
+}
+button.signin-btn{
+    color: #ffffff;
+    background-color: #808080;
+    border-color:#808080;
+    width:100%;
+    margin-bottom:1.2rem;
+}
+button.signin-btn:hover{
+    color:#ffffff;
+    background-color:#404040;
+    border-color:#404040;
+
+}
+.need_help{
+    text-decoration : none;
+}
+a.create_new_account{
+    font-size:1.2rem;
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    margin-top: 15px;
 }
