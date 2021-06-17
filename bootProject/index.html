@@ -1,54 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-    <head>
-        <title>first full-bootstrap page</title>
 
-        <meta charset="utf-8">
-        <meta charset="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap-grid.min.css">
+<head>
+  <title>first full-bootstrap page</title>
 
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">SKATE</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Videos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Photos</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Swag
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Pants</a></li>
-                      <li><a class="dropdown-item" href="#">Shirts</a></li>
-                      <li><a class="dropdown-item" href="#">Apparel</a></li>
-                    </ul>
-                  </li>
-                </ul>
+  <meta charset="utf-8">
+  <meta charset="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap-grid.min.css">
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SKATE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Swag
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Pants</a></li>
+                <li><a class="dropdown-item" href="#">Shirts</a></li>
+                <li><a class="dropdown-item" href="#">Apparel</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="sectionLight">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Welcome to my World</h1>
+              <p class="lead">Total Radness since 1987.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+          <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/skateboard.jpg" class="d-block w-100" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/skateboardbw.jpg" class="d-block w-100" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Skate for Life</h5>
+                  <p>Show me some Tricks</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/personOnSkate.jpg" class="d-block w-100" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
               </div>
             </div>
-          </nav>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-        <script src="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </div>
+        <div class="col"></div>
+      </div>
 
-    </body>
+    </div>
+
+  </div>
+
+  <script src="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"
+    integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
 
 
 </html>
