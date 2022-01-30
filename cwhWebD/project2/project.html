@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>after and before</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(235, 221, 221);
+            }
+
+            .navigation{
+                display: flex;
+                height: 100px;
+                background-color: black;
+                opacity: 0.4;
+                
+                position: fixed;
+                right: 0;
+                left: 0;
+
+                
+                
+            }
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 0px;
+                
+            }
+            ul.nav-items{
+                
+            }
+            .nav-items{
+                margin: 15px;
+                list-style: none;
+                padding: 10px;
+                
+            }
+            .nav-items a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px ;
+
+            }
+            .logo img{
+                height: 80px;
+                width: 80px;
+                padding-top: 10px;
+                padding-left: 10px;
+
+            }
+            .container-head{
+                height: 600px;
+               background: url('bg1.jpg') no-repeat center/cover;
+            }
+           
+            .bottom-header h1{
+                
+                margin: auto;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <header class="container-head">
+            <nav class="navigation">
+                <div class="logo"><img src="logo.png"></div>
+                <ul>
+                    <li class="nav-items"><a href="#">Home</a></li>
+                    <li class="nav-items"><a href="#">Services</a></li>
+                    <li class="nav-items"><a href="#">About</a></li>
+                    <li class="nav-items"><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="bottom-header">
+                <h1>Welcome to MyOnlineMeal</h1>
+            </div>
+        </header>
+    
+    </body>
+
+</html>

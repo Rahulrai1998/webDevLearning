@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="le-edge">
+    <link rel="stylesheet" href="page.css">
+    <title>random topics</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>id</th>
+                <th>roll</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>rahul</td>
+                <td>101</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>rahul</td>
+                <td>101</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>rahul</td>
+                <td>101</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <form action="backend.js">
+            <div>
+                <label for="name"> Enter name : </label>
+                <input type="text" name="myText" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="role"> Enter role : </label>
+                <input type="text" name="myRole" id="role">
+            </div>
+            <br>
+            <div>
+                <label for="email"> Enter email : </label>
+                <input type="email" name="myEmail" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="date"> Enter date : </label>
+                <input type="date" name="myDate" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="bonus"> Enter bonus : </label>
+                <input type="number" name="mybonus" id="bonus">
+            </div>
+            <br>
+            <div>
+                <label for="myEligibility">Are you eligible</label>
+                <input type="checkbox" name="check" id="myEligibility">
+            </div>
+            <br>
+            <div>
+                Gender: 
+                <label for="m">male</label>
+                <input type="radio" name="myradio" id="m">
+                <label for="fm">female</label>
+                <input type="radio" name="myradio" id="fm">
+                <label for="o">other</label>
+                <input type="radio" name="myradio" id="o">
+            </div><br>
+            <div>
+                Write about you : <br><textarea name="myText" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="myCar">Car</label>
+                <select name="car" id="myCar">
+                    <option value="ind" checked>Indica</option>
+                    <option value="tata">Tata</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+    <!--Emmet-->
+    <span class="red">hello</span>
+    <div id="new"></div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>after and before</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        #btn{
+            color: white;
+            font-size: 25px;
+            height: 55px;
+            width: 155px;
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+            
+        #btn:active{
+
+            transform: translateY(10px);
+            box-shadow: -3px -3px black;
+        }
+        
+    </style>
+</head>
+
+<body>
+    The time is <span id="time"></span>
+ 
+    <script>
+        function displayTime(){
+            let time = new Date();
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime , 5000);
+        
+    </script>
+
+</body>
+
+</html>

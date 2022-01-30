@@ -1,5 +1,10 @@
-.image{
+:root{
+	--bg-color : #000000 ; 
+}
+body{
     border-radius:20px;
+	--bg-color :green;
+    
 }
 
 

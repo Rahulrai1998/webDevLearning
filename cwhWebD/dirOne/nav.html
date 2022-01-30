@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="le-edge">
+    <title>navigation menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Be+Vietnam+Pro:wght@100;600&family=Open+Sans:wght@300&family=Orelega+One&display=swap" rel="stylesheet">
+    <style>
+        body{
+            color: white;
+            margin:0;
+            padding:0;
+            font-family: 'Orelega One', cursive;
+            background-color: black
+            ;
+        }
+
+      header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 500px;
+
+        }
+        h1{
+            font-size: 5rem;
+        }
+        h2{
+            font-size: 2rem;
+            width: 60%;
+        }
+        
+      h1::before{
+            content:"";
+            background: url('bg4.jpg') no-repeat center/cover;
+            position: absolute;
+            width: 100%;
+            height:100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.6;
+            
+        }
+        .navigation ul li{
+        list-style: none;
+
+        }
+        .navigation ul{
+            display: flex;
+        }
+        .menu{
+            margin: 3px;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .navigation ul li:hover
+        {
+            color: rgb(110, 231, 110);
+            cursor: pointer;
+            transform:translate(0px,-3px)
+
+        }
+        .navigation ul li:active
+        {
+            color: red;
+        }
+        
+    
+            
+
+        
+    </style>
+</head>
+
+
+<body>
+    <nav class="navigation">
+        <ul>
+            <li class="menu">Home</li>
+            <li class="menu">About</li>
+            <li class="menu">Contact us</li>
+            <li class="menu">Products</li>
+            <li class="menu">Policy</li>
+        </ul>
+    </nav>
+    <header>
+        
+    <h1>Welcome</h1>
+    <h2>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</h2>
+</header>
+    
+</body>
+
+</html>
